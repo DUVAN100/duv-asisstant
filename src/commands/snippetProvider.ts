@@ -20,7 +20,6 @@ export class SnippetCompletionProvider implements vscode.CompletionItemProvider 
         ];
 
         if (snippets.length === 0) {
-            // Si no hay snippets, retornar un arreglo vacío para evitar el error
             return [];
         }
 
